@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>show video</title>
+	</head>
+
+	<body>
+		<!--装视频的块 宽度是100% 背景色是黑色-->
+		<div style="width: 100%;background-color:black;">
+			<!--使播放视频的div块居中-->
+			<center>
+				<div style="width: 60%;">
+					<!--视频分三种格式，以便兼容其它浏览器。-->
+					<video width="100%" controls="controls">
+						<source src="../video/lol.mp4" type="video/mp4"></source>
+						<source src="../video/lol.ogv" type="video/ogg"></source>
+						<source src="../video/lol.webm" type="video/webm"></source>
+					</video>
+				</div>
+			</center>
+		</div>
+		<!--装视频介绍的块-->
+		<div>
+			<h1>faker领衔主演韩服王者局，看神仙打架</h1>
+			<span style="color: #666;">2018年12月28日 下午3:24</span>
+		</div>
+	</body>
+
+</html>
